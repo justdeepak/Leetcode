@@ -21,9 +21,7 @@ Linked lists are among the simplest and most common data structures. They can be
 - subexpressions,
 although these data structures can directly be implemented without using linked list basis
 
-Implementation:
-
-public class LinkedList {
-    public int value {get; set;}
-    public LinkedList _next;
-}
+Time Complexity:
+- Search    -   O(n)
+- Insert    -   O(1)
+- Delete    -   O(1)

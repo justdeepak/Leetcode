@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     linkedList = LinkedList()
     linkedList.head = head
-    linkedList.head._next = second
+    head._next = second
     second._next = third
 
     current = linkedList
@@ -22,3 +22,10 @@ if __name__ == "__main__":
         print(current.head.value)
         current.head = current.head._next
         
+
+'''
+public class LinkedList {
+    public int value {get; set;}
+    public LinkedList _next;
+}
+'''
