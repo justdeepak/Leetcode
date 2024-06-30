@@ -11,7 +11,7 @@ This structure allows for efficient insertion or removal of elements from any po
 **Drawbacks:**
 - Access time is linear
 - Random access is not feasible
-- Arrays have a better [cache locality] (https://en.wikipedia.org/wiki/Locality_of_reference) compared to linked lists
+- Arrays have a better [cache locality](https://en.wikipedia.org/wiki/Locality_of_reference) compared to linked lists
 
 Linked lists are among the simplest and most common data structures. They can be used to implement several other common abstract data types, including:
 - lists,
