@@ -8,13 +8,13 @@ class LinkedList:
         self.head = Node()
 
 if __name__ == "__main__":
-    head = Node(1)
+    first = Node(1)
     second = Node(2)
     third = Node(3)
 
     linkedList = LinkedList()
-    linkedList.head = head
-    head._next = second
+    linkedList.head = first
+    first._next = second
     second._next = third
 
     current = linkedList
