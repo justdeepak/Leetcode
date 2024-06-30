@@ -21,11 +21,3 @@ if __name__ == "__main__":
     while current.head != None:
         print(current.head.value)
         current.head = current.head._next
-        
-
-'''
-public class LinkedList {
-    public int value {get; set;}
-    public LinkedList _next;
-}
-'''
